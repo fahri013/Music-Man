@@ -38,7 +38,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
 ❃ Managed With ❤ By {OWNER}
-❃ Thanks To {message.from_user.first_name} (https://t.me/papirocknroll)
+❃ Thanks To {message.from_user.first_name}
 ━━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
@@ -53,10 +53,11 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Kutipan", url=f"https://t.me/{UPDATES_CHANNEL}"), 
-                    InlineKeyboardButton(
-                        "⛑ Group Mutualan", url=f"https://t.me/{SUPPORT_GROUP}")
-                ],[
+                        "💬 Channel Kutipan", url=f"https://t.me/{UPDATES_CHANNEL}")], 
+                  
+                [    InlineKeyboardButton(
+                        "⛑ Group Mutualan", url=f"https://t.me/{SUPPORT_GROUP}")], 
+                [
                     InlineKeyboardButton(
                         "🛠 INSTAGRAM 🛠", url=f"https://{SOURCE_CODE}")
                 ]
