@@ -32,8 +32,8 @@ BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/cd0b87484429704c7b935.png
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME", "ditomusik_bot")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "botditomusik") 
+BOT_USERNAME = getenv("BOT_USERNAME", "arditomusik_bot")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "asistendito") 
                         
         
 
@@ -41,7 +41,7 @@ ASSISTANT_NAME = getenv("ASSISTANT_NAME", "botditomusik")
 
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "areasulawesi")
 PROJECT_NAME = getenv("PROJECT_NAME", "ARDHITO MUSIC PLAYER")
-OWNER = getenv("OWNER", "@papirocknroll")
+OWNER = getenv("OWNER", "papirocknroll")
 SOURCE_CODE = getenv("SOURCE_CODE", "instagram.com/area_sulawesi?utm_medium=copy_link")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "30"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
