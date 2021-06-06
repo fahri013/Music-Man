@@ -27,17 +27,22 @@ que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Lunatic0de")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Rakyatsulawesi")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/cd0b87484429704c7b935.png")
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "botditomusik")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "AreaSulawesi")
-PROJECT_NAME = getenv("PROJECT_NAME", "DITO MUSIC")
+BOT_USERNAME = getenv("BOT_USERNAME", "@botditomusik")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "botditomusik") 
+                        
+        
+
+
+
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "areasulawesi")
+PROJECT_NAME = getenv("PROJECT_NAME", "ARDHITO MUSIC PLAYER")
 OWNER = getenv("OWNER", "@papirocknroll")
-SOURCE_CODE = getenv("SOURCE_CODE", "github.com/fahri013/Music-Man")
+SOURCE_CODE = getenv("SOURCE_CODE", "instagram.com/area_sulawesi?utm_medium=copy_link")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "30"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", None)
 PMPERMIT = getenv("PMPERMIT", None)
