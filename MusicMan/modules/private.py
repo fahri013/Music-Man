@@ -58,7 +58,7 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "⛑ Group Mutualan", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Follow Instagramku 🛠", url=f"https://{SOURCE_CODE}")
+                        "🛠 INSTAGRAM 🛠", url=f"https://{SOURCE_CODE}")
                 ]
             ]
         ),
