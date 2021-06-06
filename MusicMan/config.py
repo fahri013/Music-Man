@@ -32,7 +32,7 @@ BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/cd0b87484429704c7b935.png
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME", "@botditomusik")
+BOT_USERNAME = getenv("BOT_USERNAME", "ditomusik_bot")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "botditomusik") 
                         
         
